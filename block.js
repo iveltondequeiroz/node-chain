@@ -12,7 +12,7 @@ class Block{
 		return `Block -
 			Timestamp	: ${this.timestamp}
 			Last hash	: ${this.lastHash.substring(0,10)}
-			Hash		: ${this.hash}
+			Hash		: ${this.hash.substring(0,10)}
 			Data		: ${this.data}`;
 	}
 
