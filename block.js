@@ -7,11 +7,15 @@ class Block{
 	}
 
 	toString(){
-			return `Block -
-					Timestamp	: ${this.timestamp}
-					Last hash	: ${this.lastHash.substring(0,10)}
-					Hash		: ${this.hash}
-					Data		: ${this.data}`;
+		return `Block -
+			Timestamp	: ${this.timestamp}
+			Last hash	: ${this.lastHash.substring(0,10)}
+			Hash		: ${this.hash}
+			Data		: ${this.data}`;
+	}
+
+	static genesis() {
+		return new this('Genesis time', '------', 'f1r57-h45h', []);
 	}
 }
 
