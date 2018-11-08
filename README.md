@@ -2,4 +2,6 @@
 
 - blockchain
 - cryptocurrency
-- Object Oriented
+- Class Block
+- genesis block
+
