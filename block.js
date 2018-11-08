@@ -9,10 +9,10 @@ class Block{
 	toString(){
 			return `Block -
 					Timestamp	: ${this.timestamp}
-					Last hash	: $(this.lastHash.substring(0,10))
-					Hash			: $(this.hash)
-					Data			: $(this.data)`;
+					Last hash	: ${this.lastHash.substring(0,10)}
+					Hash		: ${this.hash}
+					Data		: ${this.data}`;
 	}
 }
 
-module exports = Block;
+module.exports = Block;
