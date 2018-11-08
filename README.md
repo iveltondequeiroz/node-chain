@@ -6,6 +6,7 @@
 - Jest testing
 - Chain Validation
 - Express app
-- HTTP API
+- HTTP API (blocks, mine endpoints)
+- P2P Server (ws websockets)
 - cryptocurrency
 
