@@ -30,20 +30,21 @@ class Blockchain{
 		}
 		return true;
 	}
+
+	replaceChain(newChain){
+		// verify the longer chain
+		if(newChain.length<=this.chain.length) {
+			console.log('received chain is no longer than current chain');
+			return;
+		}	else if(!this.isValidChain(newChain)){
+			console.log('received chain is invalid');
+			return;
+		}
+		console.log('replacing blockchain with the new chain');
+		this.chain = newChain;
+	}	
 }
 
-replaceChain(newChain){
-	// verify the longer chain
-	if(newChain.length<=this.chain.length) {
-		console.log('received chain is no longer than current chain');
-		return;
-	}	else if(!this.isValidChain(newChain)){
-		console.log('received chain is invalid');
-		return;
-	}
-	console.log('replacing blockchain with the new chain');
-	this.chain = newChain;
-}
 
 
 module.exports = Blockchain;
