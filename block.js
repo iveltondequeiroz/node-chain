@@ -16,7 +16,7 @@ class Block{
 			Data		: ${this.data}`;
 	}
 
-	static genesis() {
+	static genesis(){
 		return new this('Genesis time', '------', 'f1r57-h45h', []);
 	}
 
