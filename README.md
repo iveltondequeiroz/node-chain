@@ -3,14 +3,15 @@
 - Classes Block, Blockchain  
 - Genesis Block
 - SHA-256 hash
-- Jest testing
 - Chain Validation
-- Express app
+- Jest testing
+- Express App
 - HTTP API (blocks, mine endpoints)
 - P2P Server (ws websockets)
 - Proof of Work (hashcash, difficulty, nonce)
 - Dynamic block difficulty
 - Wallet
+- Private/Public key encription (elliptic)
 
 
 TODO
