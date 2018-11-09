@@ -24,4 +24,4 @@ class Transaction {
 	}
 }
 
-module.exports = transaction;
+module.exports = Transaction;
