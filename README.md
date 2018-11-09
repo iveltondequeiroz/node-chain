@@ -15,7 +15,6 @@
 - Transactions (uuid)
 
 
-
 TODO
 - cryptocurrency
 
