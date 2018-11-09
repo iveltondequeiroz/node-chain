@@ -10,8 +10,10 @@
 - P2P Server (ws websockets)
 - Proof of Work (hashcash, difficulty, nonce)
 - Dynamic block difficulty
-- Wallet
+- Wallet 
 - Private/Public key encription (secp256k1)
+- Transactions (uuid)
+
 
 
 TODO
