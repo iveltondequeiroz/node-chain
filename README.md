@@ -10,6 +10,8 @@
 - P2P Server (ws websockets)
 - Proof of Work (hashcash, difficulty, nonce)
 - Dynamic block difficulty
+- Wallet
+
 
 TODO
 - cryptocurrency
