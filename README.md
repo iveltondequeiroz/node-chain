@@ -11,7 +11,7 @@
 - Proof of Work (hashcash, difficulty, nonce)
 - Dynamic block difficulty
 - Wallet
-- Private/Public key encription (elliptic)
+- Private/Public key encription (secp256k1)
 
 
 TODO
