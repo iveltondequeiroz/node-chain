@@ -8,6 +8,6 @@
 - Express app
 - HTTP API (blocks, mine endpoints)
 - P2P Server (ws websockets)
-- Proof of Work (hashcash)
+- Proof of Work (hashcash, difficulty, nonce)
 - cryptocurrency
 
