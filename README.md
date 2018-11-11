@@ -12,7 +12,8 @@
 - Dynamic block difficulty
 - Wallet 
 - Private/Public key encription (secp256k1)
-- Transactions (uuid)
+- Transactions (create, sign, verify)
+- Transaction Pool
 
 
 TODO
