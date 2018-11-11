@@ -1,5 +1,6 @@
 ## Nodechain a Node.js blockchain based on bitcoin white paper concepts
 
+- Node (ES6)
 - Classes Block, Blockchain  
 - Genesis Block
 - SHA-256 hash
