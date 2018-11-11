@@ -30,7 +30,5 @@ describe('Transaction', () =>{
 		it('does not create the transaction', ()=>{
 			expect(transaction).toEqual(undefined);
 		});
-
-
 	});
 });
