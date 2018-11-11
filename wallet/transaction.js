@@ -7,6 +7,10 @@ class Transaction {
 		this.outputs = [];
 	}
 
+	update(senderWallet, recipient, amount){
+		
+	}
+
 	static newTransaction(senderWallet, recipient, amount){
 		const transaction = new this();
 
