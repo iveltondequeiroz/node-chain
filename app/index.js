@@ -29,8 +29,14 @@ app.post('/mine', (req, res) => {
 	res.redirect('/blocks');
 })
 
-app.get('/transactions',(req, res) => {
+app.get('/transactions', (req, res) => {
 	res.json(tp.transactions);
+})
+
+app.post('/transact', (req, res) => {
+	const { recipient, amount } = req.body;
+	const transaction = wallet.createTransaction(recipient, amount, tp);
+	res.redirect('/transactions')
 })
 
 
