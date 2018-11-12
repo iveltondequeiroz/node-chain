@@ -15,7 +15,9 @@
 - Private/Public key encription (secp256k1)
 - Transactions (create, sign, verify)
 - Transaction Pool
-
+- Get,Post Transaction endpoints 
+- Broadcast Transactions on P2P Server
+- Miners
 
 TODO
 - cryptocurrency
