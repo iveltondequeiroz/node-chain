@@ -1,4 +1,6 @@
-## Nodechain a Node.js blockchain based on bitcoin white paper concepts
+## Nodechain 
+
+a Node.js blockchain based on bitcoin white paper concepts
 
 - Node (ES6)
 - Classes Block, Blockchain  
@@ -19,7 +21,6 @@
 - Broadcast Transactions on P2P Server
 - Miners
 - Rewards
+- Calculate wallet's balance
 
-TODO
-- cryptocurrency
-
+![nodechain](nodechain.PNG)
