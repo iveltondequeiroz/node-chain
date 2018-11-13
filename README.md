@@ -18,6 +18,7 @@
 - Get,Post Transaction endpoints 
 - Broadcast Transactions on P2P Server
 - Miners
+- Rewards
 
 TODO
 - cryptocurrency
