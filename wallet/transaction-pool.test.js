@@ -9,11 +9,11 @@ describe('Transaction Pool', ()=>{
 		tp = new TransactionPool();
 		wallet = new  Wallet();
 		transaction = wallet.createTransaction('r4nd-4ddr355', 30, tp);
-	})
+	});
 
 	it('adds a transaction to the pool', ()=>{
 		expect(tp.transactions.find(t => t.id === transaction.id)).toEqual(transaction);
-	})
+	});
 
 	it('updates a transaction in the pool', ()=>{
 		const oldTransaction = JSON.stringify(transaction);
@@ -21,6 +21,11 @@ describe('Transaction Pool', ()=>{
 		tp.updateOrAddTransaction(newTransaction);
 		expect(JSON.stringify(tp.transactions.find(t => t.id === newTransaction.id)))
 		.not.toEqual(oldTransaction);
+	});
+
+	it('clears transactions', ()=>{
+		tp.clear();
+		expect(tp.transactions).toEqual([]);
 	})
 
 	describe('mixing valid and corrupt transactions', ()=>{
@@ -45,5 +50,7 @@ describe('Transaction Pool', ()=>{
 		it('grabs valid transactions', ()=>{
 			expect(tp.validTransactions()).toEqual(validTransactions);
 		});
-	})
+	});
+
+
 })
